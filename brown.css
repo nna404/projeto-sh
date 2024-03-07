@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+:root {
+    --cor1: #443DEB;
+    --cor2: #B53DEB;
+    --cor3: #7B3CEB;
+    --cor4: #3D6DEB;
+    --cor5: #EB3DE4;
+    --cor6: #945A4A;
+    --cor7: #724539;
+    --cor8: #503128;
+    --Julius: "Julius Sans One", sans-serif;
+    --Arial: Arial, Helvetica, sans-serif;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient( to top, var(--cor6), var(--cor7));
+}
+
+header {
+    margin: auto;
+    background-color: black;
+    min-width: 320px;
+    max-width: 720px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 1px 2px 3px #503128;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--Julius);
+    padding: 20px;
+    text-shadow: 1px 1px 2px var(--cor7);
+    text-align: center;
+    
+}
+
+
+
+main {
+    color: white;
+    background-color: black;
+    min-width: 320px;
+    max-width: 720px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 2px 3px #503128;
+}
+
+section.poema > pre {
+    white-space: pre-line;
+}
+
+.poema > pre > p {
+    font-size: 1em;
+    padding: 20px;
+    text-shadow: 1px 1px 2px var(--cor7);
+    font-family: var(--Julius);
+    
+}
+
+nav {
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--Julius);
+}
+
+nav > a:hover {
+    background-color: var(--cor7);
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+footer > p {
+    font-size: 1em;
+    text-align: justify;
+    font-family: var(--Arial);
+    font-weight: lighter;
+    padding: 10px;
+    text-shadow: 1px 1px 2px #503128;
+}
